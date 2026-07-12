@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vertical Video Director"
+  short_description: "Guiones verticales listos para producir"
+  default_prompt: "Usa $vertical-video-performance-director para convertir este concepto en un video vertical listo para grabar, editar y medir."

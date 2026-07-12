@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rental Cash Flow Analysis"
+  short_description: "Estimate rent, expenses and cash flow"
+  default_prompt: "Use $realestate-rental to estimate rent and model cash flow for this property."

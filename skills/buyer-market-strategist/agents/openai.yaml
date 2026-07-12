@@ -1,0 +1,4 @@
+interface:
+  display_name: "Buyer Market Strategist"
+  short_description: "Estrategias de mercado para compradores"
+  default_prompt: "Usa $buyer-market-strategist para analizar un mercado residencial y recomendar una estrategia responsable para el comprador."

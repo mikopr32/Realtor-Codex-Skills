@@ -1,0 +1,4 @@
+interface:
+  display_name: "Realtor Listing & Property Copy"
+  short_description: "Turn verified property facts into strong copy"
+  default_prompt: "Use $realtor-listings-property-copy to turn these verified property facts into polished marketing copy."

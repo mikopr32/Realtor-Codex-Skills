@@ -1,0 +1,4 @@
+interface:
+  display_name: "Realtor Buyer Follow-Up"
+  short_description: "Turn buyer leads into useful conversations"
+  default_prompt: "Use $realtor-buyer-follow-up to create a personalized follow-up sequence for this buyer lead."

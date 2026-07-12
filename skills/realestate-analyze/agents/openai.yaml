@@ -1,0 +1,4 @@
+interface:
+  display_name: "Full Property Analysis"
+  short_description: "Run dependency-aware multi-agent analysis"
+  default_prompt: "Use $realestate-analyze to produce a reconciled multi-dimensional analysis of this property."

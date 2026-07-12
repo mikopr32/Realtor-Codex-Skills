@@ -1,0 +1,4 @@
+interface:
+  display_name: "Google Business Profile Intelligence"
+  short_description: "Auditoría de visibilidad, reputación y conversión local"
+  default_prompt: "Usa $google-business-profile-intelligence para auditar este Google Business Profile autorizado y crear un plan local de 90 días."

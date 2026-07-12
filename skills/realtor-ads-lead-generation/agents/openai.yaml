@@ -1,0 +1,4 @@
+interface:
+  display_name: "Realtor Ads & Lead Generation"
+  short_description: "Create compliant paid real estate campaigns"
+  default_prompt: "Use $realtor-ads-lead-generation to create a compliant lead-generation campaign for my real estate market."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Antigravity Orchestrator v2"
+  short_description: "Route requests to the best personal skill"
+  default_prompt: "Use $antigravity-orchestrator-v2 to understand this request, select the best installed skill, and execute it."

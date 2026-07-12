@@ -1,0 +1,4 @@
+interface:
+  display_name: "Análisis de Comunidades"
+  short_description: "Dossiers verificables de comunidades residenciales"
+  default_prompt: "Usa $analisis-de-comunidades para investigar una comunidad residencial y crear un dossier verificable."

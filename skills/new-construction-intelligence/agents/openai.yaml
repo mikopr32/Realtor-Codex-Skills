@@ -1,0 +1,4 @@
+interface:
+  display_name: "New Construction Intelligence"
+  short_description: "Inteligencia y campañas para obra nueva"
+  default_prompt: "Usa $new-construction-intelligence para investigar una comunidad de obra nueva y crear un kit de marketing verificable."

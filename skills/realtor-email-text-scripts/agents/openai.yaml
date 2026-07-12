@@ -1,0 +1,4 @@
+interface:
+  display_name: "Realtor Email & Text Scripts"
+  short_description: "Create natural real estate communication scripts"
+  default_prompt: "Use $realtor-email-text-scripts to write a natural message and call script for this client scenario."

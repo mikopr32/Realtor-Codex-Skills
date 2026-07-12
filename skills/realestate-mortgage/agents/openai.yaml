@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mortgage & Affordability Analysis"
+  short_description: "Model payments, affordability and loan options"
+  default_prompt: "Use $realestate-mortgage to calculate and compare financing scenarios for this purchase."

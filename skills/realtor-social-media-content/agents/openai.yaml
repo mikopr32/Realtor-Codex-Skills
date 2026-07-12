@@ -1,0 +1,4 @@
+interface:
+  display_name: "Realtor Social Media Content"
+  short_description: "Create strategic organic real estate content"
+  default_prompt: "Use $realtor-social-media-content to create platform-ready organic content for my real estate audience."

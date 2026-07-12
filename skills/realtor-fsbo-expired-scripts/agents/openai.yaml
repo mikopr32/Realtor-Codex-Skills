@@ -1,0 +1,4 @@
+interface:
+  display_name: "Realtor FSBO & Expired Scripts"
+  short_description: "Create respectful seller outreach sequences"
+  default_prompt: "Use $realtor-fsbo-expired-scripts to create a compliant, value-first outreach sequence for this owner."

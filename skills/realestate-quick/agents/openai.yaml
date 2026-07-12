@@ -1,0 +1,4 @@
+interface:
+  display_name: "Quick Property Snapshot"
+  short_description: "Get a fast preliminary property signal"
+  default_prompt: "Use $realestate-quick to give me a concise preliminary snapshot of this property."

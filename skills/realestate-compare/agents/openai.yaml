@@ -1,0 +1,4 @@
+interface:
+  display_name: "Property Comparison"
+  short_description: "Compare two properties under one rubric"
+  default_prompt: "Use $realestate-compare to compare these two properties and recommend the stronger fit."

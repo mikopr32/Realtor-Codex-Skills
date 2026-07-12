@@ -1,0 +1,4 @@
+interface:
+  display_name: "Florida Market Content Intelligence"
+  short_description: "Florida news, SEO articles and social content"
+  default_prompt: "Usa $florida-market-content-intelligence para verificar noticias inmobiliarias de Florida y convertirlas en artículos SEO/AEO/GEO o contenido social de alta autoridad."

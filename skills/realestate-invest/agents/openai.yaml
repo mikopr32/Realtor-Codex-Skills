@@ -1,0 +1,4 @@
+interface:
+  display_name: "Real Estate Investment Analysis"
+  short_description: "Compare hold, BRRRR and flip strategies"
+  default_prompt: "Use $realestate-invest to compare Buy & Hold, BRRRR, and Fix & Flip for this property."

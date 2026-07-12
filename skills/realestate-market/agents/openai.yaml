@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local Real Estate Market Analysis"
+  short_description: "Analyze prices, inventory and market direction"
+  default_prompt: "Use $realestate-market to analyze current conditions in this local real estate market."

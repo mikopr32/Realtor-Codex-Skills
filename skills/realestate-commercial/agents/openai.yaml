@@ -1,0 +1,4 @@
+interface:
+  display_name: "Commercial Property Analysis"
+  short_description: "Analyze NOI, leases, cap rate and debt coverage"
+  default_prompt: "Use $realestate-commercial to analyze this commercial property and its operating economics."

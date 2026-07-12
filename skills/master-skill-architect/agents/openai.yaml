@@ -1,0 +1,7 @@
+interface:
+  display_name: "Master Skill Architect"
+  short_description: "Crea skills listas para instalar"
+  default_prompt: "Use $master-skill-architect para crear una skill nueva a partir de una necesidad de negocio."
+
+policy:
+  allow_implicit_invocation: true

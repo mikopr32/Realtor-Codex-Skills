@@ -1,0 +1,4 @@
+interface:
+  display_name: "Monitor de Crecimiento de Florida"
+  short_description: "Track Central Florida growth catalysts"
+  default_prompt: "Use $monitor-crecimiento-florida to verify and analyze growth and development projects affecting this Central Florida area."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Real Estate Strategy Orchestrator"
+  short_description: "Enruta y reconcilia análisis inmobiliarios"
+  default_prompt: "Usa $real-estate-strategy-orchestrator para clasificar esta necesidad, seleccionar las skills adecuadas y entregar una recomendación estratégica integrada."

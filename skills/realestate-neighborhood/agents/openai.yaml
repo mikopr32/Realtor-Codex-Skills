@@ -1,0 +1,4 @@
+interface:
+  display_name: "Neighborhood Analysis"
+  short_description: "Research location, amenities and objective risks"
+  default_prompt: "Use $realestate-neighborhood to evaluate this neighborhood using current objective evidence."

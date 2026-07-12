@@ -1,0 +1,4 @@
+interface:
+  display_name: "Realtor Competitive Content Intelligence"
+  short_description: "Compara Realtors de Florida en Instagram y TikTok"
+  default_prompt: "Compara sistemáticamente estos perfiles públicos de Realtors de Florida en Instagram y TikTok, identifica patrones verificables y crea oportunidades originales para mi estrategia."

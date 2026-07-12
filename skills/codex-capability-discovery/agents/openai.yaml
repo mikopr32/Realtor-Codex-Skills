@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Capability Discovery"
+  short_description: "Encuentra y evalúa extensiones seguras para Codex"
+  default_prompt: "Usa $codex-capability-discovery para determinar si ya tengo esta capacidad y recomendar la mejor extensión si hace falta."

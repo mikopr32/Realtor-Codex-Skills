@@ -1,0 +1,4 @@
+interface:
+  display_name: "DSCR Loan Underwriter"
+  short_description: "Rentas y pre-underwriting para préstamos DSCR"
+  default_prompt: "Usa $dscr-loan-underwriter para analizar la renta, el pago y la viabilidad preliminar DSCR de esta propiedad."

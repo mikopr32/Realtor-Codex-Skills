@@ -1,0 +1,4 @@
+interface:
+  display_name: "Realtor CMA & Pricing"
+  short_description: "Explain pricing evidence and seller tradeoffs"
+  default_prompt: "Use $realtor-cma-pricing to turn these comparable sales into a client-friendly pricing recommendation."

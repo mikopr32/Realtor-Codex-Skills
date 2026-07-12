@@ -1,0 +1,4 @@
+interface:
+  display_name: "Realtor Seller Follow-Up"
+  short_description: "Nurture seller leads with useful market context"
+  default_prompt: "Use $realtor-seller-follow-up to create a consultative follow-up sequence for this seller lead."

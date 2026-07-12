@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reddit Community Digest"
+  short_description: "Resume y verifica los mejores posts de Reddit"
+  default_prompt: "Usa $reddit-community-digest para crear un digest verificable de los mejores posts de este subreddit."

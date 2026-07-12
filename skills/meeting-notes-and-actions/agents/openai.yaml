@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meeting Notes & Actions"
+  short_description: "Turn meetings into decisions and owner actions"
+  default_prompt: "Use $meeting-notes-and-actions to summarize these notes into decisions, risks, and owner-tagged actions."

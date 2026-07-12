@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fix & Flip Analysis"
+  short_description: "Model ARV, rehab, costs, profit and MAO"
+  default_prompt: "Use $realestate-flip to evaluate the fix-and-flip economics of this property."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Realtor Business Content"
+  short_description: "Build credible Realtor brand and business copy"
+  default_prompt: "Use $realtor-business-content to create polished business content for my Realtor brand."

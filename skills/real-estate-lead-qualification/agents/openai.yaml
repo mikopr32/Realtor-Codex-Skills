@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lead Qualification & Equity"
+  short_description: "Limpia y prioriza leads inmobiliarios"
+  default_prompt: "Usa $real-estate-lead-qualification para limpiar, calificar y exportar esta lista completa de leads inmobiliarios."

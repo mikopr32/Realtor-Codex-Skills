@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meta Housing Ad Intelligence"
+  short_description: "Inteligencia y creatividad original para Meta Ads"
+  default_prompt: "Usa $meta-housing-ad-intelligence para investigar anuncios inmobiliarios públicos y convertir patrones competitivos en una campaña original."

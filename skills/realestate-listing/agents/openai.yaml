@@ -1,0 +1,4 @@
+interface:
+  display_name: "Real Estate Listing Copy"
+  short_description: "Create factual MLS-ready property copy"
+  default_prompt: "Use $realestate-listing to create polished listing copy from these verified property facts."

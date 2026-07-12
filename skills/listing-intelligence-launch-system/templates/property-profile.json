@@ -1,0 +1,38 @@
+{
+  "property_id": "",
+  "research_run_id": "",
+  "identity": {
+    "address": "",
+    "city": "",
+    "state": "FL",
+    "zip": "",
+    "property_type": ""
+  },
+  "specifications": {
+    "beds": null,
+    "baths": null,
+    "sqft": null,
+    "year_built": null,
+    "lot_size": null,
+    "garage": null
+  },
+  "seller_context": {
+    "goal": "",
+    "target_date": "",
+    "price_expectation": null,
+    "constraints": [],
+    "confidential_notes": []
+  },
+  "listing": {
+    "status": "pre-listing",
+    "target_launch_date": "",
+    "current_price": null,
+    "original_price": null,
+    "dom": null
+  },
+  "documents": [],
+  "data_gaps": [],
+  "assumptions": [],
+  "last_updated": ""
+}
+

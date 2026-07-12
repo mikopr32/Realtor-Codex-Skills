@@ -1,0 +1,31 @@
+{
+  "subreddit": "r/example",
+  "sort": "top",
+  "time_window": "day",
+  "captured_at": "2026-07-11T12:00:00-04:00",
+  "timezone": "America/New_York",
+  "source": "reddit_public_web",
+  "confidence": "High",
+  "requested_count": 5,
+  "posts": [
+    {
+      "rank": 1,
+      "title": "Example title",
+      "displayed_score": "1.2k",
+      "approximate_score": 1200,
+      "score_is_approximate": true,
+      "comments": 42,
+      "published_at": "2026-07-11T08:00:00-04:00",
+      "flair": null,
+      "post_type": "Text",
+      "nsfw": false,
+      "spoiler": false,
+      "pinned": false,
+      "crosspost": false,
+      "summary": "Short paraphrased summary.",
+      "permalink": "https://www.reddit.com/r/example/comments/id/slug/"
+    }
+  ],
+  "themes": [],
+  "limitations": []
+}

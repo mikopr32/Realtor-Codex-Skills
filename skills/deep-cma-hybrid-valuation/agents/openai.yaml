@@ -1,0 +1,9 @@
+interface:
+  display_name: "Deep CMA Hybrid Valuation"
+  short_description: "Deep seller CMA with hybrid valuation"
+  brand_color: "#2563EB"
+  default_prompt: "Use $deep-cma-hybrid-valuation to create a seller-facing hybrid CMA report for this property."
+
+policy:
+  allow_implicit_invocation: true
+

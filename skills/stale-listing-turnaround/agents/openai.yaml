@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stale Listing Turnaround"
+  short_description: "Diagnóstico y rescate de listings estancados"
+  default_prompt: "Usa $stale-listing-turnaround para diagnosticar por qué esta propiedad no se vende y crear un plan de relanzamiento basado en datos."

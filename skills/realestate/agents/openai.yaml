@@ -1,0 +1,4 @@
+interface:
+  display_name: "Real Estate Command Router"
+  short_description: "Route realestate commands to specialist skills"
+  default_prompt: "Use $realestate to select and run the appropriate real estate command for this request."

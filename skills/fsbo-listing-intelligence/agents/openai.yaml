@@ -1,0 +1,4 @@
+interface:
+  display_name: "FSBO Listing Intelligence"
+  short_description: "Descubre y verifica oportunidades FSBO"
+  default_prompt: "Usa $fsbo-listing-intelligence para descubrir, verificar y priorizar listings FSBO en esta ubicación."

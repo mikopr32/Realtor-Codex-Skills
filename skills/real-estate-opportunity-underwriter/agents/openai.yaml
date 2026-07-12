@@ -1,0 +1,4 @@
+interface:
+  display_name: "Underwriter de Oportunidades"
+  short_description: "Detecta y valida oportunidades inmobiliarias"
+  default_prompt: "Usa $real-estate-opportunity-underwriter para buscar, validar y clasificar oportunidades inmobiliarias en esta ubicación."

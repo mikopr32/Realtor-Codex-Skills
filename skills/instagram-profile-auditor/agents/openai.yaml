@@ -1,0 +1,3 @@
+display_name: Instagram Profile Auditor
+short_description: Audita perfiles de Instagram autorizados y crea un plan de accion.
+default_prompt: Analiza este Instagram autorizado y entregame un diagnostico de perfil, contenido, conversion y plan de accion priorizado.

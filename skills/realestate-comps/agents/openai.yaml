@@ -1,0 +1,4 @@
+interface:
+  display_name: "Comparable Sales Analysis"
+  short_description: "Estimate market value from adjusted comps"
+  default_prompt: "Use $realestate-comps to estimate a supported market-value range for this property."

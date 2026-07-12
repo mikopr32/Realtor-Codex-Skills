@@ -1,0 +1,4 @@
+interface:
+  display_name: "Realtor Open House Marketing"
+  short_description: "Build an end-to-end open house campaign"
+  default_prompt: "Use $realtor-open-house-marketing to create a complete promotion and follow-up system for this open house."

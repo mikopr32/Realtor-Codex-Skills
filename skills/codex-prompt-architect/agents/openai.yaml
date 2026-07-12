@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Prompt Architect"
+  short_description: "Optimiza prompts y workflows para Codex"
+  default_prompt: "Usa $codex-prompt-architect para convertir mi idea en un prompt profesional y ejecutable para Codex."

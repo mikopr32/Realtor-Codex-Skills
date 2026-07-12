@@ -1,0 +1,4 @@
+interface:
+  display_name: "Property Report PDF"
+  short_description: "Compile property analyses into a polished PDF"
+  default_prompt: "Use $realestate-report-pdf to compile the available property analyses into a client-ready PDF."

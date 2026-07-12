@@ -1,0 +1,7 @@
+interface:
+  display_name: "Codex Skill System Architect"
+  short_description: "Builds complete Codex skill systems from simple ideas"
+  default_prompt: "Use $codex-skill-system-architect to turn a skill idea into a complete Codex skill architecture with SKILL.md, AGENTS.md, workflows, validation, integrations, failure modes, scaling guidance, KPIs, and examples."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Social Brand Intelligence"
+  short_description: "Auditoría de marca, contenido y conversión social"
+  default_prompt: "Usa $social-brand-intelligence para auditar esta cuenta autorizada de Instagram o Facebook y crear un plan de mejora de 90 días."

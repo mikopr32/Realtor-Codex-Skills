@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {"intent": "quick_property_snapshot", "primary": "realestate-quick", "supports": []},
+    {"intent": "full_property_analysis", "primary": "realestate-analyze", "supports": []},
+    {"intent": "market_value", "primary": "realestate-comps", "supports": ["deep-cma-hybrid-valuation"]},
+    {"intent": "listing_price_strategy", "primary": "deep-cma-hybrid-valuation", "supports": ["realtor-cma-pricing"]},
+    {"intent": "buyer_market_strategy", "primary": "buyer-market-strategist", "supports": []},
+    {"intent": "community_analysis", "primary": "analisis-de-comunidades", "supports": ["realestate-neighborhood"]},
+    {"intent": "new_construction", "primary": "new-construction-intelligence", "supports": ["analisis-de-comunidades"]},
+    {"intent": "property_comparison", "primary": "realestate-compare", "supports": []},
+    {"intent": "rental_cash_flow", "primary": "realestate-rental", "supports": ["realestate-mortgage"]},
+    {"intent": "dscr_financing", "primary": "dscr-loan-underwriter", "supports": ["realestate-rental"]},
+    {"intent": "mortgage_affordability", "primary": "realestate-mortgage", "supports": []},
+    {"intent": "investment_strategy", "primary": "realestate-invest", "supports": ["realestate-rental", "realestate-comps"]},
+    {"intent": "opportunity_underwriting", "primary": "real-estate-opportunity-underwriter", "supports": ["realestate-comps"]},
+    {"intent": "property_screening", "primary": "realestate-screen", "supports": []},
+    {"intent": "flip_analysis", "primary": "realestate-flip", "supports": ["realestate-comps"]},
+    {"intent": "commercial_analysis", "primary": "realestate-commercial", "supports": []},
+    {"intent": "stale_listing", "primary": "stale-listing-turnaround", "supports": ["deep-cma-hybrid-valuation"]},
+    {"intent": "fsbo_discovery", "primary": "fsbo-listing-intelligence", "supports": ["realtor-fsbo-expired-scripts"]},
+    {"intent": "lead_qualification", "primary": "real-estate-lead-qualification", "supports": []},
+    {"intent": "listing_copy", "primary": "realtor-listings-property-copy", "supports": ["realestate-listing"]},
+    {"intent": "paid_ads", "primary": "realtor-ads-lead-generation", "supports": ["meta-housing-ad-intelligence"]},
+    {"intent": "competitive_meta_ads", "primary": "meta-housing-ad-intelligence", "supports": ["realtor-ads-lead-generation"]},
+    {"intent": "organic_social", "primary": "realtor-social-media-content", "supports": []},
+    {"intent": "vertical_video", "primary": "vertical-video-performance-director", "supports": ["realtor-social-media-content"]},
+    {"intent": "client_pdf", "primary": "realestate-report-pdf", "supports": []}
+  ]
+}

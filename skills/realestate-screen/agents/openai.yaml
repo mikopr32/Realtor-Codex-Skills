@@ -1,0 +1,4 @@
+interface:
+  display_name: "Property Screener"
+  short_description: "Find and rank properties matching a buy box"
+  default_prompt: "Use $realestate-screen to find and rank properties that match these criteria."
