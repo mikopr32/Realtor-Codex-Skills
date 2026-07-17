@@ -1,0 +1,4 @@
+interface:
+  display_name: "Michael Cruz Coach Content OS"
+  short_description: "Contenido estratégico para atraer Realtors hispanos"
+  default_prompt: "Usa $michael-cruz-coach-content-os para crear una campaña de contenido que atraiga Realtors hispanos a mi comunidad o equipo."
