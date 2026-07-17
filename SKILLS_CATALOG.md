@@ -20,6 +20,7 @@ Inventario funcional de las skills personales instaladas en Codex. `Adaptativa` 
 | `master-skill-architect` | Convertir una idea o workflow en una skill reutilizable. | Blueprint y master prompt listos para crear e instalar una skill. | No |
 | `meeting-notes-and-actions` | Transformar transcripciones o notas en resultados accionables. | Resumen, decisiones, riesgos y tareas con owner y fecha. | No |
 | `meta-housing-ad-intelligence` | Investigar patrones de anuncios inmobiliarios en Meta Ad Library. | Benchmark competitivo, patrones, conceptos originales, copy, funnel y plan de pruebas. | Adaptativa |
+| `michael-cruz-coach-content-os` | Diseñar y optimizar contenido de Michael Cruz Coach para atraer Realtors hispanos a su comunidad, entrenamientos, coaching o equipo. | Piezas, campañas, calendarios, repurposing, CTAs, control de evidencia y ciclos de optimización con voz AMI. | No |
 | `monitor-crecimiento-florida` | Monitorear infraestructura, desarrollo y crecimiento en Florida Central. | Pipeline de proyectos, catalizadores, impacto inmobiliario, riesgos y fuentes oficiales. | Adaptativa |
 | `new-construction-city-intelligence` | Mapear y mantener actualizada la nueva construcción de una ciudad. | Builders, comunidades, CDD/HOA, amenidades, modelos, quick move-ins, incentivos y cambios. | Sí |
 | `new-construction-intelligence` | Analizar una comunidad o builder y crear inteligencia comercial. | Análisis de producto/costos/mercado más kit, emails, videos y estrategia SEO. | Sí |
@@ -63,5 +64,5 @@ Inventario funcional de las skills personales instaladas en Codex. `Adaptativa` 
 |---|---:|
 | Multiagente | 10 |
 | Multiagente adaptativa | 13 |
-| Agente único | 29 |
-| **Total** | **52** |
+| Agente único | 30 |
+| **Total** | **53** |
