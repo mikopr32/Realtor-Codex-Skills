@@ -1,0 +1,12 @@
+interface:
+  display_name: Realtor Lead Magnet Builder
+  short_description: Create verified Realtor lead magnets
+  default_prompt: Use $realtor-lead-magnet-builder to create a localized lead magnet
+    for my real estate audience.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
