@@ -1,0 +1,12 @@
+interface:
+  display_name: Landing Page Builder
+  short_description: Create, audit, and build landing pages
+  default_prompt: Use $landing-page-builder to create or improve a conversion-focused
+    landing page.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
