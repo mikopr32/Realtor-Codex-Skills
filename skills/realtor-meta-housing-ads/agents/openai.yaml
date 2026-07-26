@@ -1,0 +1,11 @@
+interface:
+  display_name: Realtor Meta Housing Ads
+  short_description: "Crea campa\xF1as Meta Housing completas para Realtors"
+  default_prompt: Crea un paquete completo de Meta Housing Ads para mi oferta inmobiliaria.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
