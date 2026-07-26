@@ -1,0 +1,11 @@
+interface:
+  display_name: Funnel Architect
+  short_description: Design and orchestrate measurable funnels
+  default_prompt: Use $funnel-architect to diagnose and design my complete funnel.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,12 @@
+interface:
+  display_name: ManyChat Automation Operator
+  short_description: "Dise\xF1a, construye y prueba flujos ManyChat"
+  default_prompt: "Usa $manychat-automation-operator para dise\xF1ar y construir una\
+    \ automatizaci\xF3n de ManyChat a partir de mi objetivo."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

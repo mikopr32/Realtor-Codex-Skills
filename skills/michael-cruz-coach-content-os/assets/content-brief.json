@@ -1,0 +1,32 @@
+{
+  "mode": "piece",
+  "objective": "start_qualified_conversations",
+  "audience_segment": "stuck_agent",
+  "funnel_stage": "problem_aware",
+  "problem": "Publica contenido sin conectarlo con seguimiento ni una oferta.",
+  "desired_shift": "Entender que contenido y follow-up forman un solo sistema.",
+  "promise": "Un proceso simple para convertir una publicación en una conversación.",
+  "platform": "Instagram",
+  "format": "Reel 45 seconds",
+  "pillar": "system",
+  "offer": "[RECURSO O COMUNIDAD]",
+  "cta": {
+    "type": "keyword",
+    "value": "[PALABRA_CLAVE]",
+    "destination": "[SECUENCIA O ENLACE]"
+  },
+  "primary_kpi": "qualified_keyword_comments",
+  "editorial_lenses": [
+    "michael-ami",
+    "coffee-contracts",
+    "adam-gillespie"
+  ],
+  "claims": [
+    {
+      "text": "Ejemplo de flujo: contenido, comentario, conversación y seguimiento.",
+      "status": "example",
+      "source": ""
+    }
+  ],
+  "approval_status": "draft"
+}

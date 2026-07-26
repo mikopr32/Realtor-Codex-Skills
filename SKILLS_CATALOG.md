@@ -14,12 +14,16 @@ Inventario funcional de las skills personales instaladas en Codex. `Adaptativa` 
 | `dscr-loan-underwriter` | Evaluar propiedades y escenarios preliminares de préstamos DSCR. | Renta elegible, PITIA, DSCR, break-even, préstamo máximo y precio máximo de compra. | Adaptativa |
 | `florida-market-content-intelligence` | Investigar noticias, regulación y tendencias inmobiliarias de Florida. | Brief verificado, ranking editorial y contenido SEO/AEO/GEO/social con fuentes. | Adaptativa |
 | `fsbo-listing-intelligence` | Descubrir, verificar y priorizar listings FSBO públicos. | Lista deduplicada, score, historial, contacto público, fuentes y borradores de outreach. | Adaptativa |
+| `funnel-architect` | Diseñar, auditar y optimizar funnels completos desde adquisición hasta retención. | Diagnóstico, oferta, journey, unit economics, activos, CRM, medición y orden de implementación. | Adaptativa |
 | `google-business-profile-intelligence` | Auditar Google Business Profiles y visibilidad local. | Score, hallazgos sobre NAP/categorías/reputación/conversión y plan de 90 días. | Adaptativa |
 | `instagram-profile-auditor` | Diagnosticar un perfil de Instagram público o autorizado. | Auditoría de posicionamiento, contenido, conversión y plan de crecimiento. | No |
+| `landing-page-builder` | Crear, auditar, optimizar y especificar landing pages enfocadas en conversión. | Página completa, formulario, thank-you state, tracking, integraciones y especificación de implementación. | No |
 | `listing-intelligence-launch-system` | Dirigir el ciclo completo de captación, lanzamiento y optimización de listings. | Property Profile, CMA, estrategia, plan de 21 días, KPIs, seller updates y relanzamiento. | Sí |
 | `master-skill-architect` | Convertir una idea o workflow en una skill reutilizable. | Blueprint y master prompt listos para crear e instalar una skill. | No |
+| `manychat-automation-operator` | Diseñar, construir, auditar y optimizar automatizaciones autorizadas en ManyChat. | Flow spec, mensajes, campos, tags, integraciones, casos de prueba, QA y publicación controlada. | No |
 | `meeting-notes-and-actions` | Transformar transcripciones o notas en resultados accionables. | Resumen, decisiones, riesgos y tareas con owner y fecha. | No |
 | `meta-housing-ad-intelligence` | Investigar patrones de anuncios inmobiliarios en Meta Ad Library. | Benchmark competitivo, patrones, conceptos originales, copy, funnel y plan de pruebas. | Adaptativa |
+| `michael-cruz-coach-content-os` | Operar el sistema de contenido de Michael Cruz Coach para Realtors hispanos. | Guiones, campañas, calendarios, lead magnets, repurposing, métricas y contenido con voz AMI. | No |
 | `monitor-crecimiento-florida` | Monitorear infraestructura, desarrollo y crecimiento en Florida Central. | Pipeline de proyectos, catalizadores, impacto inmobiliario, riesgos y fuentes oficiales. | Adaptativa |
 | `new-construction-city-intelligence` | Mapear y mantener actualizada la nueva construcción de una ciudad. | Builders, comunidades, CDD/HOA, amenidades, modelos, quick move-ins, incentivos y cambios. | Sí |
 | `new-construction-intelligence` | Analizar una comunidad o builder y crear inteligencia comercial. | Análisis de producto/costos/mercado más kit, emails, videos y estrategia SEO. | Sí |
@@ -48,7 +52,9 @@ Inventario funcional de las skills personales instaladas en Codex. `Adaptativa` 
 | `realtor-competitive-content-intelligence` | Comparar contenido público de Realtors en Instagram y TikTok. | Benchmark normalizado, patrones, espacios competitivos e hipótesis de contenido original. | Adaptativa |
 | `realtor-email-text-scripts` | Crear scripts reutilizables de comunicación inmobiliaria. | Emails, SMS, WhatsApp, llamadas, ramas conversacionales y CTAs. | No |
 | `realtor-fsbo-expired-scripts` | Preparar outreach consultivo para FSBO y expirados verificados. | Openers, voicemail, email, SMS, door-knock, objeciones y secuencia multitoque. | No |
+| `realtor-lead-magnet-builder` | Crear y empaquetar lead magnets inmobiliarios localizados y verificables. | Guía o reporte terminado, DOCX, dirección visual y copy de activación en español o inglés. | No |
 | `realtor-listings-property-copy` | Convertir datos de una propiedad en copy multicanal. | MLS remarks, luxury copy, brochure, anuncios, headlines y versiones bilingües. | No |
+| `realtor-meta-housing-ads` | Crear paquetes completos de Meta Ads para Realtors bajo Special Ad Category: Housing. | Estrategia, dos anuncios, Instant Form, seguimiento, tracking, KPIs y checklist de cumplimiento. | No |
 | `realtor-open-house-marketing` | Diseñar promoción, ejecución y conversión de un open house. | Timeline, invitaciones, social, registro, signage, host script, follow-up y seller recap. | No |
 | `realtor-seller-follow-up` | Crear seguimiento consultivo para seller leads. | Secuencias de contacto, recap, pricing updates, nurture y reactivación. | No |
 | `realtor-social-media-content` | Crear contenido orgánico inmobiliario para redes sociales. | Hooks, captions, carousels, stories, calendarios, CTA y dirección visual. | No |
@@ -62,6 +68,6 @@ Inventario funcional de las skills personales instaladas en Codex. `Adaptativa` 
 | Clasificación | Cantidad |
 |---|---:|
 | Multiagente | 10 |
-| Multiagente adaptativa | 13 |
-| Agente único | 29 |
-| **Total** | **52** |
+| Multiagente adaptativa | 14 |
+| Agente único | 34 |
+| **Total** | **58** |

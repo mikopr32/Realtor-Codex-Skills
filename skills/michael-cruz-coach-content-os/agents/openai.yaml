@@ -1,0 +1,12 @@
+interface:
+  display_name: Michael Cruz Coach Content OS
+  short_description: "Contenido estrat\xE9gico para atraer Realtors hispanos"
+  default_prompt: "Usa $michael-cruz-coach-content-os para crear una campa\xF1a de\
+    \ contenido que atraiga Realtors hispanos a mi comunidad o equipo."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
