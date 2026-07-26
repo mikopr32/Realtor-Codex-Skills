@@ -40,6 +40,6 @@ Después reinicia o recarga Codex para que vuelva a descubrir las skills disponi
 
 ## Inventario
 
-El inventario actual contiene 52 skills personales. La fuente de verdad de cada paquete es su archivo `SKILL.md`.
+El inventario actual contiene 58 skills personales. La fuente de verdad de cada paquete es su archivo `SKILL.md`.
 
 Consulta [SKILLS_CATALOG.md](SKILLS_CATALOG.md) para ver qué hace cada skill, qué resultado produce y si utiliza arquitectura multiagente.
