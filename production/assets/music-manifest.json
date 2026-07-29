@@ -1,0 +1,12 @@
+{
+  "expected_filename": "El_Diario_de_AMI.mp3",
+  "status": "installed",
+  "size_bytes": 3851814,
+  "sha256": "6447695433466e9c62a400cba7f5efd449058d425f6a3097ec0626f5e07b7a5c",
+  "rights_owner_confirmed_by_user": true,
+  "intro_start_seconds": 0,
+  "intro_duration_seconds": 15,
+  "outro_start_seconds": 38,
+  "outro_duration_seconds": 15,
+  "note": "Agregar aquí el MP3 maestro oficial. No sustituirlo con una descarga o pista aproximada."
+}
