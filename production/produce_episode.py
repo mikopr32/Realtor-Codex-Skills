@@ -36,6 +36,28 @@ def duration(path: Path) -> float:
     return float(result.stdout.strip())
 
 
+def loudness(path: Path) -> tuple[float, float, float]:
+    result = subprocess.run(
+        [
+            "ffmpeg", "-hide_banner", "-nostats", "-i", str(path),
+            "-af", "loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json",
+            "-f", "null", "-",
+        ],
+        check=True,
+        text=True,
+        capture_output=True,
+    )
+    match = re.search(r"\{\s*\"input_i\".*?\}", result.stderr, re.DOTALL)
+    if not match:
+        raise RuntimeError("No se pudo medir loudness del master.")
+    measured = json.loads(match.group(0))
+    return (
+        float(measured["input_i"]),
+        float(measured["input_tp"]),
+        float(measured["input_lra"]),
+    )
+
+
 def chunks(text: str, limit: int = 4200) -> list[str]:
     sentences = re.split(r"(?<=[.!?…])\s+", text.strip())
     result: list[str] = []
@@ -132,17 +154,54 @@ def main() -> None:
             "-filter_complex", filters, "-map", "[mix]",
             "-t", f"{voice_seconds + 30:.3f}", "-c:a", "pcm_s24le", str(mix),
         )
+        first_pass = subprocess.run(
+            [
+                "ffmpeg", "-hide_banner", "-nostats", "-i", str(mix),
+                "-af", "loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json",
+                "-f", "null", "-",
+            ],
+            check=True,
+            text=True,
+            capture_output=True,
+        )
+        match = re.search(r"\{\s*\"input_i\".*?\}", first_pass.stderr, re.DOTALL)
+        if not match:
+            raise RuntimeError("No se pudo analizar la primera pasada de masterización.")
+        measured = json.loads(match.group(0))
+        loudnorm_filter = (
+            "loudnorm=I=-16:TP=-1.5:LRA=11:"
+            f"measured_I={measured['input_i']}:"
+            f"measured_LRA={measured['input_lra']}:"
+            f"measured_TP={measured['input_tp']}:"
+            f"measured_thresh={measured['input_thresh']}:"
+            f"offset={measured['target_offset']}:linear=true"
+        )
         run(
             "ffmpeg", "-hide_banner", "-loglevel", "error", "-y",
-            "-i", str(mix), "-af", "loudnorm=I=-16:TP=-1.5:LRA=11",
+            "-i", str(mix), "-af", loudnorm_filter,
             "-ar", "44100", "-ac", "2", "-c:a", "libmp3lame",
             "-b:a", "192k", str(OUTPUT),
         )
+    output_duration = duration(OUTPUT)
+    integrated_lufs, true_peak_dbtp, loudness_range_lu = loudness(OUTPUT)
+    duration_delta = abs(output_duration - (voice_seconds + 30))
+    if not (-16.6 <= integrated_lufs <= -15.4):
+        raise RuntimeError(f"Master fuera del objetivo: {integrated_lufs:.2f} LUFS.")
+    if true_peak_dbtp > -1.45:
+        raise RuntimeError(f"Pico verdadero demasiado alto: {true_peak_dbtp:.2f} dBTP.")
+    if duration_delta > 1.0:
+        raise RuntimeError(f"Duración incompatible con voz + intro/outro: {duration_delta:.3f}s.")
     qa = {
         "episode": int(EPISODE),
         "title": metadata["title"],
-        "duration_seconds": round(duration(OUTPUT), 3),
-        "minimum_duration": duration(OUTPUT) > 30,
+        "duration_seconds": round(output_duration, 3),
+        "voice_duration_seconds": round(voice_seconds, 3),
+        "duration_delta_seconds": round(duration_delta, 3),
+        "integrated_lufs": round(integrated_lufs, 2),
+        "true_peak_dbtp": round(true_peak_dbtp, 2),
+        "loudness_range_lu": round(loudness_range_lu, 2),
+        "minimum_duration": output_duration > 30,
+        "technical_qa_passed": True,
         "sha256": hashlib.sha256(OUTPUT.read_bytes()).hexdigest(),
         "human_listen_required": True,
         "spotify_published": False,
