@@ -1,0 +1,46 @@
+name: Producir El Diario de AMI - Episodio 84
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  producir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      EPISODE_NUMBER: "84"
+      ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Validar secretos
+        shell: bash
+        run: |
+          test -n "$ELEVENLABS_API_KEY"
+          test -n "$ELEVENLABS_VOICE_ID"
+
+      - name: Instalar FFmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Restaurar canción oficial
+        shell: bash
+        run: |
+          cat production/assets/music.b64.part-* | base64 --decode > production/assets/El_Diario_de_AMI.mp3
+
+      - name: Producir y validar Episodio 84
+        run: python3 production/produce_episode.py
+
+      - name: Entregar audio y QA
+        uses: actions/upload-artifact@v4
+        with:
+          name: episodio-84-para-aprobacion
+          path: |
+            production/output/Episodio_84.mp3
+            production/output/Episodio_84_QA.json
+          if-no-files-found: error
+          retention-days: 30
