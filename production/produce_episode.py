@@ -184,6 +184,18 @@ def main() -> None:
         )
     output_duration = duration(OUTPUT)
     integrated_lufs, true_peak_dbtp, loudness_range_lu = loudness(OUTPUT)
+    if not (-16.6 <= integrated_lufs <= -15.4):
+        corrected = OUTPUT.with_name(f"{OUTPUT.stem}_corrected.mp3")
+        run(
+            "ffmpeg", "-hide_banner", "-loglevel", "error", "-y",
+            "-i", str(OUTPUT),
+            "-af", "loudnorm=I=-16:TP=-1.5:LRA=11",
+            "-ar", "44100", "-ac", "2", "-c:a", "libmp3lame",
+            "-b:a", "192k", str(corrected),
+        )
+        corrected.replace(OUTPUT)
+        output_duration = duration(OUTPUT)
+        integrated_lufs, true_peak_dbtp, loudness_range_lu = loudness(OUTPUT)
     duration_delta = abs(output_duration - (voice_seconds + 30))
     if not (-16.6 <= integrated_lufs <= -15.4):
         raise RuntimeError(f"Master fuera del objetivo: {integrated_lufs:.2f} LUFS.")
