@@ -21,7 +21,7 @@ jobs:
     env:
       EPISODE_NUMBER: "84"
       ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-      ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+      ELEVENLABS_VOICE_ID: "x1DOrfLtuvhgvW0jYdsS"
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
@@ -30,7 +30,6 @@ jobs:
         shell: bash
         run: |
           test -n "$ELEVENLABS_API_KEY"
-          test -n "$ELEVENLABS_VOICE_ID"
 
       - name: Instalar FFmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
