@@ -1,0 +1,59 @@
+name: Produce AMI episodes 103-125
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/produce-ami-batch-103-125.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  produce:
+    name: Episode ${{ matrix.episode }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        episode: [103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125]
+    env:
+      ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      ELEVENLABS_VOICE_ID: x1DOrfLtuvhgvW0jYdsS
+      EPISODE_NUMBER: ${{ matrix.episode }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate API secret
+        shell: bash
+        run: |
+          test -n "$ELEVENLABS_API_KEY"
+
+      - name: Install FFmpeg
+        shell: bash
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Reconstruct official music
+        shell: bash
+        run: |
+          cat production/assets/music.b64.part-* | base64 --decode > production/assets/El_Diario_de_AMI.mp3
+
+      - name: Produce and validate episode
+        run: python3 production/produce_episode.py
+
+      - name: Upload episode and QA
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: episodio-${{ matrix.episode }}-final
+          path: |
+            production/output/Episodio_${{ matrix.episode }}.mp3
+            production/output/Episodio_${{ matrix.episode }}_QA.json
+          if-no-files-found: error
+          retention-days: 30
