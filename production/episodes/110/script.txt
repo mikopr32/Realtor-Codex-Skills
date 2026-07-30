@@ -1,0 +1,29 @@
+Buenos días y bienvenido al Diario de AMI.
+
+Abre tu CRM y mira la cantidad de contactos. Ahora elimina mentalmente a quienes no han respondido, no tienen próxima acción o llevan meses sin avanzar. ¿Todavía tienes un pipeline o solamente una base de datos grande? Los números pueden aparentar abundancia mientras las oportunidades reales permanecen escondidas.
+
+De todos los nombres que tienes en el CRM, ¿cuántos tienen una necesidad entendida, una próxima acción y una fecha? Ese es tu pipeline real; lo demás todavía es potencial sin trabajar.
+
+Un pipeline puede verse lleno y estar enfermo. Tener 500 contactos en el CRM no significa tener 500 oportunidades. Para conocer su salud necesitas tres métricas.
+
+La primera es tasa de contacto: de todos los leads nuevos o reactivados, ¿con cuántos lograste una conversación de dos vías? Si generaste 50 leads y hablaste con cinco, tu tasa es 10 por ciento. Antes de cambiar el anuncio, revisa velocidad de respuesta, número de intentos, canales y horarios.
+
+La segunda es tasa de avance: de las personas contactadas, ¿cuántas dieron un próximo paso verificable? Puede ser completar una consulta, hablar con un lender, enviar documentos, agendar una cita o solicitar una valoración. “Interesado” no es una etapa. Debe existir una acción observable.
+
+La tercera es tiempo en etapa: ¿cuánto lleva cada oportunidad sin avanzar? Un comprador puede necesitar seis meses para estar listo, pero eso es diferente a llevar 45 días en “contactado” sin una próxima fecha. El tiempo revela estancamiento y hace visibles los leads olvidados.
+
+Estas métricas trabajan juntas. Una tasa de contacto baja señala un problema al inicio. Una buena tasa de contacto con poco avance señala una conversación débil o mala calificación. Buen avance con demasiado tiempo en etapa puede indicar seguimiento inconsistente o barreras no resueltas.
+
+Imagina dos pipelines con 100 leads. El primero contactó 60, avanzó 20 y tiene próximas tareas. El segundo contactó 15, avanzó tres y no registra fechas. Ambos tienen el mismo volumen, pero no el mismo valor.
+
+No necesitas un dashboard costoso. Puedes comenzar con una hoja y cuatro columnas: nombre, etapa, último contacto y próxima acción. Lo importante es que cada semana puedas identificar dónde se rompe el flujo.
+
+El tamaño del pipeline impresiona; el movimiento del pipeline paga.
+
+Tarea del día.
+
+Si estás comenzando: clasifica tus 25 contactos más recientes en verde, amarillo o rojo.
+
+Si ya tienes producción: mide semanalmente tasa de contacto, tasa de avance y días promedio por etapa, separados por fuente.
+
+Mañana hablaremos de por qué más leads no siempre resuelven el problema. Comparte este episodio con alguien cuyo CRM está lleno, pero su calendario de citas no. Nos escuchamos mañana.
