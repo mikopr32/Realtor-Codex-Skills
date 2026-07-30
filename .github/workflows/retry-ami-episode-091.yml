@@ -1,0 +1,37 @@
+name: Retry AMI episode 91
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/retry-ami-episode-091.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  produce:
+    name: Episode 91
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      ELEVENLABS_VOICE_ID: x1DOrfLtuvhgvW0jYdsS
+      EPISODE_NUMBER: 91
+    steps:
+      - uses: actions/checkout@v4
+      - run: test -n "$ELEVENLABS_API_KEY"
+      - run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+      - run: cat production/assets/music.b64.part-* | base64 --decode > production/assets/El_Diario_de_AMI.mp3
+      - run: python3 production/produce_episode.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: episodio-91-final-retry
+          path: |
+            production/output/Episodio_91.mp3
+            production/output/Episodio_91_QA.json
+          if-no-files-found: error
+          retention-days: 30
