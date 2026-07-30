@@ -1,0 +1,49 @@
+name: Retry AMI episode 107
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/retry-ami-episode-107.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  produce:
+    name: Episode 107
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      ELEVENLABS_VOICE_ID: x1DOrfLtuvhgvW0jYdsS
+      EPISODE_NUMBER: 107
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate API secret
+        run: test -n "$ELEVENLABS_API_KEY"
+
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Reconstruct official music
+        run: |
+          cat production/assets/music.b64.part-* | base64 --decode > production/assets/El_Diario_de_AMI.mp3
+
+      - name: Produce and validate episode
+        run: python3 production/produce_episode.py
+
+      - name: Upload episode and QA
+        uses: actions/upload-artifact@v4
+        with:
+          name: episodio-107-final
+          path: |
+            production/output/Episodio_107.mp3
+            production/output/Episodio_107_QA.json
+          if-no-files-found: error
+          retention-days: 30
