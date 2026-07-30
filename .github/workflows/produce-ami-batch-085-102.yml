@@ -33,6 +33,12 @@ jobs:
         run: |
           test -n "$ELEVENLABS_API_KEY"
 
+      - name: Install FFmpeg
+        shell: bash
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
       - name: Reconstruct official music
         shell: bash
         run: |
