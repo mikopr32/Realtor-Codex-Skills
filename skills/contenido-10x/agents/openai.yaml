@@ -1,0 +1,12 @@
+interface:
+  display_name: Contenido 10X
+  short_description: Marketing inmobiliario multiagente basado en datos
+  default_prompt: "Usa $contenido-10x para convertir los datos de mi propiedad en\
+    \ un paquete estrat\xE9gico de contenido inmobiliario."
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
