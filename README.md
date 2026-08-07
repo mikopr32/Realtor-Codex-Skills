@@ -50,3 +50,7 @@ Consulta [SKILLS_CATALOG.md](SKILLS_CATALOG.md) para ver qué hace cada skill, q
 skills de Codex (sin `SKILL.md`), guardadas aquí solo como código de consulta:
 
 - [`external/nea-agent`](external/nea-agent) — [kevinrivm/nea-agent](https://github.com/kevinrivm/nea-agent), agente de IA de agendamiento por WhatsApp (FastAPI + Postgres).
+- [`external/vocero-crm`](external/vocero-crm) — [kevinrivm/vocero-crm](https://github.com/kevinrivm/vocero-crm), CRM de WhatsApp self-hosted (Next.js + Postgres) del que `nea-agent` depende para enviar/recibir mensajes.
+
+Para ponerlos a correr más adelante (VPS, dominios, credenciales de Meta y
+OpenAI/OpenRouter reales), sigue [`external/RUNBOOK.md`](external/RUNBOOK.md).
