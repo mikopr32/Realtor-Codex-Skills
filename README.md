@@ -43,3 +43,14 @@ Después reinicia o recarga Codex para que vuelva a descubrir las skills disponi
 El inventario actual contiene 58 skills personales. La fuente de verdad de cada paquete es su archivo `SKILL.md`.
 
 Consulta [SKILLS_CATALOG.md](SKILLS_CATALOG.md) para ver qué hace cada skill, qué resultado produce y si utiliza arquitectura multiagente.
+
+## Código externo vendorizado
+
+`external/` contiene copias de referencia de repositorios externos que no son
+skills de Codex (sin `SKILL.md`), guardadas aquí solo como código de consulta:
+
+- [`external/nea-agent`](external/nea-agent) — [kevinrivm/nea-agent](https://github.com/kevinrivm/nea-agent), agente de IA de agendamiento por WhatsApp (FastAPI + Postgres).
+- [`external/vocero-crm`](external/vocero-crm) — [kevinrivm/vocero-crm](https://github.com/kevinrivm/vocero-crm), CRM de WhatsApp self-hosted (Next.js + Postgres) del que `nea-agent` depende para enviar/recibir mensajes.
+
+Para ponerlos a correr más adelante (VPS, dominios, credenciales de Meta y
+OpenAI/OpenRouter reales), sigue [`external/RUNBOOK.md`](external/RUNBOOK.md).
