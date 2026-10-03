@@ -10,6 +10,7 @@ Inventario funcional de las skills personales instaladas en Codex. `Adaptativa` 
 | `codex-capability-discovery` | Descubrir y comparar skills, plugins, connectors y otras capacidades. | Inventario de opciones, compatibilidad, procedencia, riesgos y recomendación de instalación. | Adaptativa |
 | `codex-prompt-architect` | Mejorar ideas o prompts y convertirlos en instrucciones ejecutables. | Prompt optimizado, supuestos, alcance, criterios de aceptación y modo recomendado. | No |
 | `codex-skill-system-architect` | Diseñar skills profesionales y sistemas de agentes para Codex. | Arquitectura, `SKILL.md`, workflows, validación, KPIs, fallas, archivos y ejemplos. | Sí |
+| `contenido-10x` | Convertir un listing en un paquete de marketing respaldado por mercado, intención y hechos verificables. | Investigación, SEO/AEO/GEO, estrategia y seis piezas con trazabilidad, Fair Housing y QA. | Sí |
 | `deep-cma-hybrid-valuation` | Valorar una propiedad combinando comparables ajustados y apreciación histórica. | CMA profundo, rango reconciliado, escenarios de precio y reporte para el seller. | Sí |
 | `dscr-loan-underwriter` | Evaluar propiedades y escenarios preliminares de préstamos DSCR. | Renta elegible, PITIA, DSCR, break-even, préstamo máximo y precio máximo de compra. | Adaptativa |
 | `florida-market-content-intelligence` | Investigar noticias, regulación y tendencias inmobiliarias de Florida. | Brief verificado, ranking editorial y contenido SEO/AEO/GEO/social con fuentes. | Adaptativa |
@@ -67,7 +68,7 @@ Inventario funcional de las skills personales instaladas en Codex. `Adaptativa` 
 
 | Clasificación | Cantidad |
 |---|---:|
-| Multiagente | 10 |
+| Multiagente | 11 |
 | Multiagente adaptativa | 14 |
 | Agente único | 34 |
-| **Total** | **58** |
+| **Total** | **59** |
