@@ -1,0 +1,212 @@
+[
+  {
+    "episode": 148,
+    "title": "Episodio 148: El mercado no se detuvo; se volvió más selectivo",
+    "source_title": "El mercado no se detuvo; se volvió más selectivo",
+    "publish_at": "2026-11-02T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 431
+  },
+  {
+    "episode": 149,
+    "title": "Episodio 149: Un mercado más lento no es un mercado muerto",
+    "source_title": "Un mercado más lento no es un mercado muerto",
+    "publish_at": "2026-11-03T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 438
+  },
+  {
+    "episode": 150,
+    "title": "Episodio 150: Todos los días hay cierres; la pregunta es quién está preparado",
+    "source_title": "Todos los días hay cierres; la pregunta es quién está preparado",
+    "publish_at": "2026-11-04T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 436
+  },
+  {
+    "episode": 151,
+    "title": "Episodio 151: La tasa no decide sola; el contexto del cliente sí",
+    "source_title": "La tasa no decide sola; el contexto del cliente sí",
+    "publish_at": "2026-11-05T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 393
+  },
+  {
+    "episode": 152,
+    "title": "Episodio 152: No existe un solo mercado; existe el mercado de cada cliente",
+    "source_title": "No existe un solo mercado; existe el mercado de cada cliente",
+    "publish_at": "2026-11-06T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 375
+  },
+  {
+    "episode": 153,
+    "title": "Episodio 153: Más inventario significa más poder para negociar",
+    "source_title": "Más inventario significa más poder para negociar",
+    "publish_at": "2026-11-09T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 416
+  },
+  {
+    "episode": 154,
+    "title": "Episodio 154: Una tasa alta no cuenta toda la historia del pago",
+    "source_title": "Una tasa alta no cuenta toda la historia del pago",
+    "publish_at": "2026-11-10T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 394
+  },
+  {
+    "episode": 155,
+    "title": "Episodio 155: La concesión correcta puede valer más que una reducción de precio",
+    "source_title": "La concesión correcta puede valer más que una reducción de precio",
+    "publish_at": "2026-11-11T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 411
+  },
+  {
+    "episode": 156,
+    "title": "Episodio 156: El comprador preparado tiene más poder del que imagina",
+    "source_title": "El comprador preparado tiene más poder del que imagina",
+    "publish_at": "2026-11-12T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 372
+  },
+  {
+    "episode": 157,
+    "title": "Episodio 157: Comprar ahora o esperar; la respuesta está en los números",
+    "source_title": "Comprar ahora o esperar; la respuesta está en los números",
+    "publish_at": "2026-11-13T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 358
+  },
+  {
+    "episode": 158,
+    "title": "Episodio 158: Las casas se siguen vendiendo; no todas están bien posicionadas",
+    "source_title": "Las casas se siguen vendiendo; no todas están bien posicionadas",
+    "publish_at": "2026-11-16T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 372
+  },
+  {
+    "episode": 159,
+    "title": "Episodio 159: El precio de salida determina la conversación del mercado",
+    "source_title": "El precio de salida determina la conversación del mercado",
+    "publish_at": "2026-11-17T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 380
+  },
+  {
+    "episode": 160,
+    "title": "Episodio 160: Una propiedad que no genera interés está enviando un mensaje",
+    "source_title": "Una propiedad que no genera interés está enviando un mensaje",
+    "publish_at": "2026-11-18T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 371
+  },
+  {
+    "episode": 161,
+    "title": "Episodio 161: El comprador cambió; la estrategia del vendedor también debe cambiar",
+    "source_title": "El comprador cambió; la estrategia del vendedor también debe cambiar",
+    "publish_at": "2026-11-19T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 351
+  },
+  {
+    "episode": 162,
+    "title": "Episodio 162: Vender en este mercado exige ajustar antes de justificar",
+    "source_title": "Vender en este mercado exige ajustar antes de justificar",
+    "publish_at": "2026-11-20T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 353
+  },
+  {
+    "episode": 163,
+    "title": "Episodio 163: El mercado selectivo también está seleccionando agentes",
+    "source_title": "El mercado selectivo también está seleccionando agentes",
+    "publish_at": "2026-11-23T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 342
+  },
+  {
+    "episode": 164,
+    "title": "Episodio 164: Tu cliente no necesita predicciones; necesita escenarios",
+    "source_title": "Tu cliente no necesita predicciones; necesita escenarios",
+    "publish_at": "2026-11-24T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 376
+  },
+  {
+    "episode": 165,
+    "title": "Episodio 165: Los datos locales vencen al ruido nacional",
+    "source_title": "Los datos locales vencen al ruido nacional",
+    "publish_at": "2026-11-25T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 355
+  },
+  {
+    "episode": 166,
+    "title": "Episodio 166: El valor del agente aparece cuando la decisión se vuelve difícil",
+    "source_title": "El valor del agente aparece cuando la decisión se vuelve difícil",
+    "publish_at": "2026-11-26T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 351
+  },
+  {
+    "episode": 167,
+    "title": "Episodio 167: Mientras otros esperan, tú debes crear conversaciones",
+    "source_title": "Mientras otros esperan, tú debes crear conversaciones",
+    "publish_at": "2026-11-27T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 344
+  },
+  {
+    "episode": 168,
+    "title": "Episodio 168: No necesitas un mercado fácil; necesitas estar preparado",
+    "source_title": "No necesitas un mercado fácil; necesitas estar preparado",
+    "publish_at": "2026-11-30T06:00:00-05:00",
+    "timezone": "America/New_York",
+    "status": "extracted",
+    "spotify_published": false,
+    "words": 382
+  }
+]
